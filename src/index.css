@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background: rgb(16,16,16);
+    background: radial-gradient(circle, rgba(16,16,16,1) 0%, rgba(0,0,0,1) 100%);
+    overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+     display:none;
+  }
+
+ 
+
+body{
+     color:#fff;
+     overflow-x:hidden;
+     /* background: rgb(16,16,16);
+     background: radial-gradient(circle, rgba(16,16,16,1) 0%, rgba(0,0,0,1) 100%); */
+}
+ 
