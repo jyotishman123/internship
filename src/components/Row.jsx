@@ -4,8 +4,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { db } from "../firebase";
-import { getDoc, setDoc, doc } from "firebase/firestore";
-import { moviesdata } from "../moviesdata";
+import { getDoc, doc } from "firebase/firestore";
 import Movie from "./Movie";
 
 const Row = ({ moviestitles, movieCategory }) => {
@@ -65,18 +64,7 @@ const Row = ({ moviestitles, movieCategory }) => {
   }
 
   function sideRigth() {
-    async function add() {
-      try {
-        await setDoc(doc(db, "movies", "hindi"), {
-          movies: moviesdata,
-        });
-      } catch (e) {
-        console.error("Error adding document: ", e);
-      }
-    }
-
-    add();
-
+   
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollTo({
         left: scrollContainerRef.current.scrollLeft + 150,
