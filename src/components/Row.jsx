@@ -8,7 +8,6 @@ import { getDoc, doc } from "firebase/firestore";
 import Movie from "./Movie";
 
 const Row = ({ moviestitles, movieCategory }) => {
-    console.log(movieCategory)
   const [onHover, setOnHover] = useState(false);
   const [isLeftArrowVisible, setIsLeftArrowVisible] = useState(true);
   const [isRightArrowVisible, setIsRightArrowVisible] = useState(true);
