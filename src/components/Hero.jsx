@@ -17,7 +17,7 @@ const Hero = () => {
                       <h1 className="text-[40px]  font-extrabold">DOCTOR STRANGE</h1>
                        
                     </div>
-                    <div className="hidden sm:block"> 
+                    <div className="hidden sm:block w-[50%]"> 
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus adipisci dicta soluta, molestiae, molestias maxime repudiandae repellat ex tempore, mollitia officia aliquid dolorem provident facilis beatae! Soluta, est explicabo? Libero facilis assumenda ratione ducimus quidem labore exercitationem cumque ut sed alias maiores aspernatur, aut amet sapiente non. Voluptatibus, libero facilis.</p>
                     </div>
 
