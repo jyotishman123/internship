@@ -12,7 +12,7 @@ const Movie = ({ item }) => {
     >
       {isHover ? (
         <video
-          src={item?.videoUrl}
+          src='/video/video.mp4'
           autoPlay
           loop
           muted

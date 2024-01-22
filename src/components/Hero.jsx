@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="h-[100%] w-[100%] -z-10 top-0"> 
           {/* <img src="https://www.bollywoodhungama.com/wp-content/uploads/2022/11/Pathaan-01.jpg" alt=""  className="w-[100%] h-[100%]"/> */}
           <video
-  src="https://firebasestorage.googleapis.com/v0/b/netflix-clone-d9bd2.appspot.com/o/Marvel%20Studios'%20Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness%20_%20Official%20Trailer.mp4?alt=media&token=6f87c657-959f-447c-981f-5de344dc362c"
+  src="/video/video.mp4"
   autoPlay
   
   muted
